@@ -1,0 +1,10 @@
+<!-- librerias/plantillas/inicio.html -->
+{% extends '_base.html' %}
+{% load static %}
+
+{% block titulo %} - Inicio {% endblock titulo %}
+
+{% block contenido %}
+<h1>Esta es nuestra página de inicio</h1>
+<img class="portada" src="{% static 'imagenes/imagen.jpg' %}">
+{% endblock contenido %}

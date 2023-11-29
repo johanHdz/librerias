@@ -1,0 +1,14 @@
+h1 {
+    color:red;
+}
+
+IMG.portada {
+    height: 300px;
+    width: 100%;
+}
+
+BODY {
+    margin: 0%;
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
