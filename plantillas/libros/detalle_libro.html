@@ -1,0 +1,11 @@
+{% extends '_base.html' %}
+
+{% block titulo %} - {{ object.titulo }}{% endblock titulo %}
+
+{% block contenido %}
+	<div class="book-detail">
+		<h2><a href="">{{ object.titulo }}</a></h2>
+		<p>Autor: {{ object.autor }}</p>
+		<p>Precio: {{ object.precio }}</p>
+	</div>
+{% endblock contenido %}

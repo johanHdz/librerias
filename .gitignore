@@ -1,7 +1,8 @@
 .venv
 __python__/
 db.sqlite3
-.DS_Store #MacOS
+.DS_Store
 .git
 archivosestaticos/
 .env
+docker-compose.yml
